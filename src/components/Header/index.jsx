@@ -37,7 +37,7 @@ export default function Header() {
             return (
               <img
                 key={index}
-                src="/src/assets/randomria.svg"
+                src="/randomria.svg"
                 alt={item.alt}
                 className="h-20 w-20"
               />
