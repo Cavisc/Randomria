@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import ReturnButton from "../ReturnButton";
 import ActionButton from "../ActionButton";
 
 export default function NumbersHeader({ gameName }) {
@@ -9,10 +8,6 @@ export default function NumbersHeader({ gameName }) {
 
   const newGame = () => {
     navigate("/");
-  };
-
-  const reload = () => {
-    window.location.reload();
   };
 
   return (
@@ -23,10 +18,7 @@ export default function NumbersHeader({ gameName }) {
       className="flex items-center justify-around max-sm:flex-col max-sm:mt-6"
     >
       <span className="text-text font-bold text-lg">jogo: {gameName}</span>
-      <div className="flex gap-4">
-        <ReturnButton size={16} onClick={reload} />
-        <ActionButton label={"novo jogo"} onClick={newGame} />
-      </div>
+      <ActionButton label={"novo jogo"} onClick={newGame} />
     </motion.section>
   );
 }
