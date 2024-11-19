@@ -35,9 +35,9 @@ Cada tipo de jogo possui regras específicas quanto ao número de números a ser
 
 ## Acessando o Site
 
-A aplicação está disponível online via **GitHub Pages**. Você pode acessá-la clicando no link abaixo:
+A aplicação está disponível online via **Vercel**. Você pode acessá-la clicando no link abaixo:
 
-[Visite o site](https://Cavisc.github.io/Randomria/)
+[Visite o site](https://randomria.vercel.app/)
 
 ## Instalação
 
