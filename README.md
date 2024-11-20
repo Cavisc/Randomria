@@ -39,32 +39,38 @@ A aplicação está disponível online via **Vercel**. Você pode acessá-la cli
 
 [Visite o site](https://randomria.vercel.app/)
 
+## Design no Figma
+
+Você pode visualizar o design do projeto no Figma pelo link abaixo:
+
+[Ver Design no Figma](https://www.figma.com/design/WLMKji3pkUkGxjikeOWUUH/Randomria?node-id=0-1&m=dev&t=W76tSjRa4NXrHF83-1)
+
 ## Instalação
 
 Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone este repositório:
 
-   ```bash
+```bash
    git clone https://github.com/Cavisc/Randomria.git
-   ```
-
+```
+   
 2. Navegue até o diretório do projeto:
 
-   ```bash
+```bash
    cd Randomria
-   ```
+```
 
 3. Instale as dependências:
 
-   ```bash
+```bash
    npm install
-   ```
+```
 
 4. Execute o servidor de desenvolvimento:
 
-    ```bash
+```bash
     npm run dev
-    ```
+```
 
-5. Abra o navegador e acesse o endereço fornecido no terminal (geralmente, será algo como `http://localhost:3000` ou `http://127.0.0.1:5173`).
+5. Abra o navegador e acesse o endereço fornecido no terminal (geralmente, será algo como http://localhost:3000 ou http://127.0.0.1:5173).
